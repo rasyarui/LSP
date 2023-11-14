@@ -20,9 +20,9 @@
             </div>
             <ul>
                 <li><a href="/tambah">Admin</a></li>
-                <li><a href="#">Beranda</a></li>
+                <li><a href="/beranda">Beranda</a></li>
                 <li><a href="/home">Activity</a></li>
-                <li><a href="#">Profile</a></li>
+                <li><a href="/profile">Profile</a></li>
                 @auth
                 <li>
                     <form action="/logout" method="POST">

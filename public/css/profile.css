@@ -1,0 +1,139 @@
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logout{
+    background-color: #14A2B8;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    color: white;
+}
+
+
+.navbar ul li{
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+}
+
+.navbar .logo{
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.navbar .logo img{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+.navbar .logo h1{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.jumbotron{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-image: url("/assets/tentang kami 2.jpg");
+}
+
+.bar h3{
+    margin-bottom: 50px;
+}
+
+.bar{
+    padding: 20px;
+    color: white;
+    width: 200px;
+    background-color: black;
+    margin-left: 60px;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.content{
+    margin-top: 190px;
+     margin-left: 100px;
+}
+
+.content h1{
+    font-size: 45px;
+}
+
+.content p{
+    font-size: 20px;
+    max-width: 60%;
+}
+
+
+.struktur h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.struktur img{
+    width: 97%;
+}
+
+.panduan h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.panduan h3, p{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.panduan{
+    margin-left: 20px;
+}
+
+.tata h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+.tata{
+    margin-left: 20px;
+}
+
+.tata h2, p{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq{
+    margin-left: 20px;
+}
+
+.faq h2,p{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+

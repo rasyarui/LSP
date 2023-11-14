@@ -16,6 +16,15 @@ use App\Http\Controllers\BukuController;
 |
 */
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/beranda', function () {
+    return view('beranda');
+});
+
+
+
 Route::get('/home', [BukuController::class, 'index'])->middleware('auth');
 Route::get('/tambah', [BukuController::class, 'tambah'])->name('buku.tambah')->middleware('admin');
 
