@@ -1,0 +1,354 @@
+/*  import google fonts */
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700"); 
+
+
+  body{
+    /* background-color: #E1DCC5; */
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.error{
+  color: red;
+}
+  
+  .header{
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .container{
+    font-family: "Poppins", sans-serif;
+  }
+
+  .pinjaman ul{
+    list-style: none;
+  }
+
+  
+  .pinjaman{
+    border-right: 2px solid #97999E;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 2100px;
+    left: 0;
+    background: #fff;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container a{
+    position: relative;
+    font-weight: medium;
+    color:black;
+    font-size: 18px;
+    display: table;
+    margin-top: -20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+  }
+
+
+  .item{
+    text-decoration: none;
+    position: relative;
+    margin-left: 15px;
+    font-weight: lighter;
+  }
+
+  .container h2{
+    margin-left: -20px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+ 
+  .container img{
+      /* background-color:#fff; */
+      position: relative;
+      max-width: 100%;
+      top: 20px;
+      height: auto;
+      width: 50px;
+      height: 50px;
+      margin-left: -30px;
+  }
+  
+  
+  
+  /* Navbar Style */
+
+
+/* Hamburger menu */
+.menu-toggle{
+  margin-right: 15px;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+  display: none;
+}
+
+.menu-toggle input{
+  position: absolute;
+  width: 40px;
+  height: 27px;
+  left: -10px;
+  top: -4px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.menu-toggle span{
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #14A2B8;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+/* End hamburger menu */
+
+  
+
+  .logout{
+    background-color: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    background-color: #14A2B8;
+    border-radius: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    top: 27px;
+    position: absolute;
+    right: 20px;
+  }
+
+.navbar{
+    background-color: #D9D9D9;
+    width: 100%;
+    align-items: center;
+    display: flex;  
+    justify-content: space-between;
+    height: 70px;
+}
+
+
+
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar ul{
+    width: 200px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/* Hamburger Menu */
+.menu-toggle span:nth-child(2){
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4){
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+  transform: rotate(45deg) translate(-1px, -1px);
+  background-color: #14A2B8;
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+  transform: rotate(-45deg) translate(0 ,0);
+  background-color: #14A2B8;
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+  transform: scale(0);
+  opacity: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.form{
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute  ;
+  top: 100px;
+  left: 300px;
+  font-family: "Poppins", sans-serif;
+
+}
+.form h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.form p{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form form input[type=text]{
+  width: 85%;
+  outline: none;
+  border: 1px solid black ;
+  padding: 12px 14px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+
+.form .deskripsi{
+    height: 100px;
+}
+
+
+.form button{
+  font-size: 1.1rem;
+  padding: 8px 0;
+  margin-left: 360px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 30%;
+  background: #4EB4FC;
+  color: white ;
+  cursor: pointer;
+}
+
+
+
+/* Form 2 */
+.form2{
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute  ;
+  top: 790px;
+  left: 300px;
+  font-family: "Poppins", sans-serif;
+
+}
+.form2 h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.form2 p{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form2 form input[type=text]{
+  width: 85%;
+  outline: none;
+  border: 1px solid black ;
+  padding: 12px 14px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+
+.form2 .deskripsi{
+    height: 100px;
+}
+
+
+.form2 button{
+  font-size: 1.1rem;
+  padding: 8px 0;
+  margin-left: 360px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 30%;
+  background: #4EB4FC;
+  color: white ;
+  cursor: pointer;
+}
+
+
+/* Form3 */
+.form3{
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute  ;
+  top: 1500px;
+  left: 300px;
+  font-family: "Poppins", sans-serif;
+
+}
+.form3 h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.form3 p{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form3 form input[type=text]{
+  width: 85%;
+  outline: none;
+  border: 1px solid black ;
+  padding: 12px 14px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+
+.form3 .deskripsi{
+    height: 100px;
+}
+
+
+.form3 button{
+  font-size: 1.1rem;
+  padding: 8px 0;
+  margin-left: 360px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 30%;
+  background: #4EB4FC;
+  color: white ;
+  cursor: pointer;
+}
