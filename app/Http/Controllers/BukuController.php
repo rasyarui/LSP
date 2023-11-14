@@ -240,7 +240,5 @@ class BukuController extends Controller
     return redirect('/home');
   }
 
+
 }
-
-
-
